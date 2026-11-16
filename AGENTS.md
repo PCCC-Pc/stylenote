@@ -50,3 +50,9 @@ StyleNote 是繁體中文的韓系日常穿搭知識網站，重點是可參考�
 - main 分支、根目錄部署。
 - Commit message 清楚描述內容。
 - 發布後測試首頁與全部內頁。
+
+
+## 使用者提供的 Instagram 參考素材
+- `images/ootd/ig-outfit-grid.jpg` 是使用者在對話中提供的 Instagram 個人檔案截圖，從中裁切並組成的 4×4 圖片素材表。
+- HTML 使用 `.ootd-image` 區塊搭配 CSS background-position 顯示各個裁切格；新增照片時需同步調整背景定位，不可把整張素材表當作單一照片呈現。
+- 圖片只作為使用者指定的課堂作業視覺參考，應註明「使用者提供之 Instagram 截圖裁切」，不得將截圖中的人物或帳號誤認為網站原創內容。
