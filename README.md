@@ -21,3 +21,8 @@ Repository：https://github.com/PCCC-Pc/stylenote
 網站：https://pccc-pc.github.io/stylenote/
 
 GitHub Pages 使用 main 分支與根目錄部署。新增頁面前先閱讀 AGENTS.md，沿用共用導覽與樣式，並為穿搭圖片加入描述性 alt、圖說及來源連結。
+
+
+## OOTD 圖片素材
+- `images/ootd/ig-outfit-grid.jpg`：由使用者提供的 Instagram 個人檔案截圖裁切整理而成的 4×4 圖片素材表。
+- 首頁與四個主題頁使用 CSS 背景定位顯示各張穿搭裁切圖，圖片來源說明為使用者提供的參考截圖。
