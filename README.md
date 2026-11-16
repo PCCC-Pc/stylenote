@@ -1,24 +1,21 @@
 # StyleNote｜AI 穿搭知識庫
 
-繁體中文穿搭知識網站，主題為色彩搭配、穿搭風格與衣櫥整理。AGENTS.md 定義 AI 持續擴充網站時必須遵守的規則。
+StyleNote 是繁體中文日常穿搭知識網站，涵蓋色彩搭配、穿搭風格、衣櫥整理與穿搭公式。
 
-## 專案結構
-- index.html
-- AGENTS.md
-- README.md
-- css/style.css
-- js/main.js
-- pages/color-guide.html
-- pages/style-guide.html
-- pages/wardrobe.html
+## 網站頁面
+- `index.html`：首頁、專題入口、穿搭靈感。
+- `pages/color-guide.html`：色彩原理、配色公式與練習。
+- `pages/style-guide.html`：簡約、日系、韓系、法式與柔和知性風格。
+- `pages/wardrobe.html`：生活情境盤點、核心單品與膠囊衣櫥。
+- `pages/outfit-formulas.html`：日常、約會、通勤與週末穿搭公式。
+- `AGENTS.md`：AI 持續開發規範。
 
-## 本機預覽
-直接以瀏覽器開啟 index.html。
+## 技術
+HTML5、CSS3、原生 JavaScript；使用共用 CSS/JS、相對路徑與響應式版面。圖片使用遠端圖片來源，需保留 alt 文字。
 
-## GitHub Pages 部署
-1. 進入 Settings → Pages。
-2. 選擇 Deploy from a branch，Branch 選 main、資料夾選 /(root)，按 Save。
-3. 等待部署完成，網址通常為 https://你的帳號.github.io/stylenote/。
-4. 測試首頁與三個內頁的連結。
+## GitHub Pages
+Repository： https://github.com/PCCC-Pc/stylenote
+網站： https://pccc-pc.github.io/stylenote/
+GitHub Pages 使用 main 分支與根目錄部署。
 
-新增頁面前先閱讀 AGENTS.md。新頁面放在 pages/，沿用共用 CSS/JS、頁首與頁尾，並更新首頁或相關頁面連結。
+新增頁面前先閱讀 AGENTS.md，沿用共用頁首、頁尾、視覺系統及內容規範，並更新首頁導覽與相關連結。
