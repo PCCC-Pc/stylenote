@@ -1,21 +1,23 @@
-# StyleNote｜AI 穿搭知識庫
+# StyleNote｜韓系日常穿搭筆記
 
-StyleNote 是繁體中文日常穿搭知識網站，涵蓋色彩搭配、穿搭風格、衣櫥整理與穿搭公式。
+StyleNote 是繁體中文的韓系日常穿搭網站，以首爾街拍與實際全身造型為靈感，整理可以參考、拆解並運用在日常生活中的穿搭方式。
 
-## 網站頁面
-- `index.html`：首頁、專題入口、穿搭靈感。
-- `pages/color-guide.html`：色彩原理、配色公式與練習。
-- `pages/style-guide.html`：簡約、日系、韓系、法式與柔和知性風格。
-- `pages/wardrobe.html`：生活情境盤點、核心單品與膠囊衣櫥。
-- `pages/outfit-formulas.html`：日常、約會、通勤與週末穿搭公式。
-- `AGENTS.md`：AI 持續開發規範。
+## 網站內容
+- `index.html`：韓系首頁、實際穿搭 Lookbook、專題入口。
+- `pages/color-guide.html`：韓系低彩度配色與穿搭實例。
+- `pages/style-guide.html`：柔和簡約、校園休閒、都會俐落、韓系街頭。
+- `pages/wardrobe.html`：韓系基本款衣櫥與整理方法。
+- `pages/outfit-formulas.html`：依場合拆解的全身穿搭公式。
+- `AGENTS.md`：AI 持續開發與圖片使用規範。
+
+## 視覺方向
+暖白、灰粉、低彩度與乾淨留白，搭配實際首爾街拍全身造型。每張參考圖片附有圖說與原始來源連結，方便讀者查看攝影與文章來源。
 
 ## 技術
-HTML5、CSS3、原生 JavaScript；使用共用 CSS/JS、相對路徑與響應式版面。圖片使用遠端圖片來源，需保留 alt 文字。
+HTML5、CSS3、原生 JavaScript；使用共用 CSS/JS、相對路徑與響應式版面。
 
 ## GitHub Pages
-Repository： https://github.com/PCCC-Pc/stylenote
-網站： https://pccc-pc.github.io/stylenote/
-GitHub Pages 使用 main 分支與根目錄部署。
+Repository：https://github.com/PCCC-Pc/stylenote
+網站：https://pccc-pc.github.io/stylenote/
 
-新增頁面前先閱讀 AGENTS.md，沿用共用頁首、頁尾、視覺系統及內容規範，並更新首頁導覽與相關連結。
+GitHub Pages 使用 main 分支與根目錄部署。新增頁面前先閱讀 AGENTS.md，沿用共用導覽與樣式，並為穿搭圖片加入描述性 alt、圖說及來源連結。
